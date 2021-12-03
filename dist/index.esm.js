@@ -2429,18 +2429,18 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF';
     }
     else {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF';
     }
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "FesBNB Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Trunks Inu home page" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF", alt: "Trunks Inu Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: banner, alt: "Trunks Inu Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF", alt: "FesBNB Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: banner, alt: "Trunks Inu Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
 
@@ -2723,13 +2723,13 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$T, null))));
     }
     return (React.createElement(Container, null,
-        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x8371a55dBEE669f16bD9e6137e2cE39ee87aE8e2", target: "_blank" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmXPcosXbeq4a9rQ46jcq4UJrkQr4N5h5ZKywPji5NyD3P", alt: "Trunks Inu Logo", style: {
+        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x1050Df20e75dc87A09993596E25d7c5d9890CdeB", target: "_blank" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF", alt: "Trunks Inu Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmXPcosXbeq4a9rQ46jcq4UJrkQr4N5h5ZKywPji5NyD3P", alt: "Trunks Inu Logo", style: {
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF", alt: "Trunks Inu Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

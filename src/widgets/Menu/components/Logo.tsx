@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF';
   } else {
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF';
   }
 
   return (
@@ -49,28 +49,28 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Knights DeFi home page">
+        <StyledLink as="a" href={href} aria-label="Trunks Inu home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
-            alt="FesBNB Logo"
+            src="https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF"
+            alt="Trunks Inu Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="FesBNB Logo"
+            alt="Trunks Inu Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
         <StyledLink to={href} aria-label="Knights DeFi home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
+            src="https://gateway.pinata.cloud/ipfs/QmQ75ECzyrvTZtv12LuhEyqqCRCrhBQPMUbzwRFS3L4vtF"
             alt="FesBNB Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="Knights DeFi Logo"
+            alt="Trunks Inu Logo"
             className="desktop-icon"
           />
         </StyledLink>
