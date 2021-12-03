@@ -2572,7 +2572,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/TrunksInuBSC",
+        href: "https://twitter.com/inutrunks",
     },
 ];
 var MENU_HEIGHT = 64;
